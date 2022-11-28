@@ -8,6 +8,11 @@ lyricsgenius and spotify packages were used for this project
 # API Access
 In order to recreate the dataset on your own, make sure to request access from Spotify API and Genius API and change the credentials in the secrets.py prior to running the script. 
 
+# About The Code
+The **main.ipynb** file is the main script to run the data retrieval pipeline.
+
+**spotify.py** and **genius.py** are modules that use the Spotify API and Genius API to retrieve information we needed.
+
 # Requirements
 The codes are built on python 3.10.4
 Code to install all the needed libraries for your convience
